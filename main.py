@@ -8,7 +8,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
-    await message.reply("Привет!\nЭто группа анонимных алкоголиков Китти Хок!\nОтправь мне любое сообщение, а я тебе обязательно отвечу.")
+    await message.reply("Привет!\nЭто группа анонимных алкоголиков Китти Хок!\nЭто тестовый запуск нашего робота.")
 
 
 @dp.message_handler()
