@@ -24,7 +24,7 @@ if __name__ == '__main__':
 from telebot import TeleBot
 from pyTelegramBotCAPTCHA import CaptchaManager
 
-bot = TeleBot('5802708478:AAECwLYYAYfahxM5ewQkyzfYaiWuOKINmns')
+bot = TeleBot('')
 captcha_manager = CaptchaManager(bot.get_me().id)
 
 
