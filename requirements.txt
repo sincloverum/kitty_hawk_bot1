@@ -1,2 +1,3 @@
 aiogram~=2.25.1
 pyTelegramBotCAPTCHA~=1.1.4
+multicolorcaptcha~=1.2.0
